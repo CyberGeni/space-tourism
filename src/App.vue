@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="h-screen bg-black">
       <app-header></app-header>
       <router-view></router-view>
   </main>

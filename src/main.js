@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+
+// CSS Library
 import 'animate.css';
 
 // Router components
-
 import Home from './components/Home.vue'
 
 // Router init
