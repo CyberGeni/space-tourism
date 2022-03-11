@@ -3,7 +3,7 @@
         <img class="md:pl-6 h-fit" src="/src/assets/shared/logo.svg" alt="">
         <nav class="md:w-3/4 md:flex md:justify-end" id="">
             <img class="hamburger md:hidden h-auto w-auto" src="/src/assets/shared/icon-hamburger.svg" alt="">
-            <ul class="menu md:flex md:h-20 bg-lightBlue md:items-center md:space-x-8">
+            <ul class="menu md:flex md:h-20 bg-white md:items-center md:space-x-8">
                 <img class="md:hidden" src="/src/assets/shared/icon-close.svg" alt="">
                 <li>
                     <router-link to="/">00 Home</router-link>
@@ -29,8 +29,8 @@ export default {
 }
 </script>
 <style scoped>
-nav ul{
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+nav ul {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
 }
 </style>
