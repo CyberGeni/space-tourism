@@ -31,7 +31,7 @@ export default {
 <style scoped>
 nav ul {
     background-color: rgb(255, 255, 255, 0.4);
-    backdrop-filter: blur (81.5px);
+    backdrop-filter: blur(81.5px);
     -webkit-backdrop-filter: blur(81.5px);
 }
 </style>
