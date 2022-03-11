@@ -1,5 +1,5 @@
 <template>
-    <header class="absolute z-100 text-white md:md:items-center w-full md:mx-auto flex md:justify-between h-fit">
+    <header class="absolute z-100 text-white md:md:items-center w-full md:mx-auto flex md:justify-between h-fit ">
         <img class="md:pl-6 h-fit" src="/src/assets/shared/logo.svg" alt="">
         <nav class="md:w-3/4 md:flex md:justify-end" id="">
             <img class="hamburger md:hidden h-auto w-auto" src="/src/assets/shared/icon-hamburger.svg" alt="">
@@ -30,7 +30,8 @@ export default {
 </script>
 <style scoped>
 nav ul {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(81.5485px);
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: blur (81.5px);
+    -webkit-backdrop-filter: blur(81.5px);
 }
 </style>
