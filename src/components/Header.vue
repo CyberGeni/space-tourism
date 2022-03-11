@@ -7,16 +7,16 @@
             <ul class="menu hidden uppercase tracking-wider text-lg font-sub-heading md:flex md:h-20 bg-white md:items-center md:space-x-8 lg:h-18 lg:space-x-12">
                 <img class="md:hidden" src="/src/assets/shared/icon-close.svg" alt="">
                 <li>
-                    <router-link exact="" to="/"><span class="font-bold mr-2">00</span>Home</router-link>
+                    <router-link class="hover:decoration-2 hover:decoration-zinc-500 hover:underline hover:underline-offset-[30px]" exact="" to="/"><span class="font-bold mr-2">00</span>Home</router-link>
                 
                 <li>
-                    <router-link to="/destination"> <span class="font-bold mr-2">01</span>Destination</router-link>
+                    <router-link class="hover:decoration-2 hover:decoration-zinc-500 hover:underline hover:underline-offset-[30px]" to="/destination"> <span class="font-bold mr-2">01</span>Destination</router-link>
                 </li>
                 <li>
-                    <router-link to="/crew"> <span class="font-bold mr-2">02</span>Crew</router-link>
+                    <router-link class="hover:decoration-2 hover:decoration-zinc-500 hover:underline hover:underline-offset-[30px]" to="/crew"> <span class="font-bold mr-2">02</span>Crew</router-link>
                 </li>
                 <li class="pr-8">
-                    <router-link to="/technologies"> <span class="font-bold mr-2">03</span>Technology</router-link>
+                    <router-link class="hover:decoration-2 hover:decoration-zinc-500 hover:underline hover:underline-offset-[30px]" to="/technologies"> <span class="font-bold mr-2">03</span>Technology</router-link>
                 </li>
             </ul>
         </nav> 
@@ -36,6 +36,11 @@ nav ul {
     -webkit-backdrop-filter: blur(16px);
 }
 .router-link-active{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 30px;
+}
+.router-link:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 30px;
