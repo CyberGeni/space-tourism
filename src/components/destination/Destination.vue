@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import DestinationNavbar from './destinationNavbar.vue'
+import DestinationNavbar from './DestinationNavbar.vue'
 export default {
   name: 'app',
   data () {

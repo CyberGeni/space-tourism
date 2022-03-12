@@ -1,5 +1,5 @@
 <template>
-  <main class="h-screen text-white">
+  <main class="text-white">
     hullo, moon here
   </main>
 </template>
