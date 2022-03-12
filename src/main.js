@@ -8,7 +8,7 @@ import 'animate.css';
 // Router components
 import Home from './components/Home.vue'
 import Destination from './components/destination/Destination.vue'
-
+import Moon from './components/destination/Moon.vue'
 
 // Router init
 Vue.use(VueRouter);
@@ -17,6 +17,7 @@ const router = new VueRouter({
     // essential routing of components  
     {path: '/', component: Home},
     {path: '/destination', component: Destination},
+    {path: '/moon', component: Moon},
   ],
   mode : 'history'
 })
