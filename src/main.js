@@ -19,6 +19,8 @@ import Titan from './components/destination/Titan.vue'
 import Crew from './components/Crew.vue'
 // import Technologies from './components/destination/.vue'
 
+
+
 // Router init
 Vue.use(VueRouter);
 const router = new VueRouter({
