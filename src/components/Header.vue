@@ -1,7 +1,7 @@
 <template>
     <header class="absolute z-1000 text-white flex justify-between items-center md:px-0 md:py-0 md:md:items-center w-full md:mx-auto flex md:justify-between h-fit lg:mt-12 ">
         <img class="absolute px-8 mt-32 md:mt-24 md:pl-6 lg:pl-12 h-fit" src="/src/assets/shared/logo.svg" alt="">
-        <div class="hidden absolute z-100 lg:mt-20 lg:ml-36 lg:flex lg:w-[50%] lg:mx-auto lg:h-[1px] opacity-30 lg:bg-white"></div>
+        <div class="hidden absolute z-100 lg:mt-20 lg:ml-36 lg:flex lg:w-[50%] lg:mx-auto lg:h-[1px] opacity-95 lg:bg-white"></div>
         <nav class="md:w-3/4 md:flex md:justify-end" id="">
             <a @click="toggle" class="icon hover:cursor-pointer">
                 <img class="absolute right-8 top-12 md:hidden h-auto w-auto" src="/src/assets/shared/icon-hamburger.svg" alt="">
