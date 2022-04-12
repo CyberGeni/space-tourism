@@ -8,11 +8,12 @@
   because we’ll give you a truly out of this world experience!</p>
         </section>
         <section class="md:flex md:justify-center">
-            <div class="rounded-full w-40 h-40 md:w-48 md:h-48 flex items-center justify-center text-2xl uppercase font-heading text-deepBlue bg-white hover:ring-gray-200 hover:ring-opacity-20 hover:ring-[36px] transition-all my-6">
-                <router-link to="/destination/moon">
+            <router-link to="/destination/moon">
+                <div class="rounded-full  w-40 h-40 md:w-48 md:h-48 flex items-center justify-center text-2xl uppercase font-heading text-deepBlue bg-white hover:ring-gray-200 hover:ring-opacity-20 hover:ring-[36px] transition-all my-6">    
                     Explore
-                </router-link>
-            </div>
+                </div>        
+            </router-link>
+            
         </section>
     </main>
 </template>
