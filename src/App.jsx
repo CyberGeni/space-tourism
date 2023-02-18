@@ -9,7 +9,7 @@ import Technology from './pages/Technology'
 function App() {
 
   return (
-    <div className="App font-Bellefair">
+    <div className="App">
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
