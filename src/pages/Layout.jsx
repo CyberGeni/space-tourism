@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 function Layout() {
   return (
-    <div>
+    <div className='relative overflow-hidden'>
         <Navbar />
         <Outlet />
     </div>

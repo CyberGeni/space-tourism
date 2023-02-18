@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <main className="min-h-screen md:min-h-unset md:h-screen flex flex-col space-y-5 justify-center items-center md:items-end md:pb-28 text-center md:text-left md:flex-row md:px-[10%] bg-no-repeat bg-center bg-cover bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')]">
+    <main className="min-h-screen md:min-h-unset md:h-screen flex flex-col space-y-5 justify-center items-center md:items-end md:pb-36 md:mb-44 text-center md:text-left md:flex-row md:px-[10%] bg-no-repeat bg-center bg-cover bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')]">
       <section className="space-y-4 mt-12">
         <h4 className="text-lavender font-Barlow tracking-widest md:text-xl">SO YOU WANT TO TRAVEL TO</h4>
         <h1 className="text-white font-Bellefair text-8xl sm:text[124px] lg:text-[150px]">SPACE</h1>
