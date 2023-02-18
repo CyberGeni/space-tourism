@@ -33,8 +33,8 @@ function Navbar() {
       ) : null}
 
       <nav
-        className={`top-0 right-0 sm:right-0 sm:relative flex-col sm:flex-row h-screen sm:h-fit absolute flex bg-white/5 backdrop-blur-lg px-10 md:px-16 py-8 uppercase sm:space-x-5 md:space-x-8 tracking-widest transition-all
-        ${isActive ? "w-[75vw] pt-16 z-50 space-y-8 " : "-right-[75vw]"}
+        className={`top-0  sm:right-1 sm:relative flex-col sm:flex-row h-screen sm:h-fit absolute flex bg-white/5 backdrop-blur-lg px-10 md:px-16 py-8 uppercase sm:space-x-5 md:space-x-8 tracking-widest transition-all
+        ${isActive ? "w-[75vw] pt-16 z-50 space-y-8 absolute right-0" : "-right-[75vw]"}
       `}
       >
         <img
@@ -47,34 +47,34 @@ function Navbar() {
           to="/"
           exact
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 active:underline"
+          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
           <span className="font-semibold sm:hidden md:inline">00 &nbsp; </span>{" "}
           Home
         </NavLink>
         <NavLink
           to="/destination"
-          exact
-          activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 active:underline"
+          
+          activeClassname="active"
+          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
           <span className="font-semibold sm:hidden md:inline">01 &nbsp;</span>{" "}
           Destination
         </NavLink>
         <NavLink
           to="/crew"
-          exact
+          
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 active:underline"
+          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
           <span className="font-semibold sm:hidden md:inline">02 &nbsp;</span>{" "}
           Crew
         </NavLink>
         <NavLink
           to="/technology"
-          exact
+          
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 active:underline"
+          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
           <span className="font-semibold sm:hidden md:inline">03 &nbsp;</span>{" "}
           Technology
