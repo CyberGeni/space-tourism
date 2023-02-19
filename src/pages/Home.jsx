@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,9 +14,9 @@ function Home() {
           experience!
         </p>
       </section>
-      <div>
+      <Link to="/destination">
         <button className="rounded-full my-6 md:my-0 w-48 lg:w-60 lg:h-60 h-48 hover:outline-[32px] hover:outline hover:outline-white/10 text-2xl transition-all  font-Bellefair text-darkBlue bg-white md:tracking-wider">EXPLORE</button>
-      </div>
+      </Link>
       
     </main>
   );

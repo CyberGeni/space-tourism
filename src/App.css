@@ -6,3 +6,22 @@
     /* hover:decoration-4 */
   }
 }
+
+.splide__arrows {
+  display: none;
+}
+.splide__pagination__page {
+  background: rgba(255, 255, 255, 0.4) !important;
+  width: 0.75em !important;
+  height: 0.75em !important;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition:  all 0.3s ease-in-out;
+}
+
+.splide__pagination__page.is-active {
+  background: white !important;
+ transform: scale(1.4);
+  border-radius: 50%;
+}
+

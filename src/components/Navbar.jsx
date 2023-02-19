@@ -47,36 +47,36 @@ function Navbar() {
           to="/"
           exact
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
+          className="text-white/75 transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
-          <span className="font-semibold sm:hidden md:inline">00 &nbsp; </span>{" "}
+          <span className="text-white font-semibold sm:hidden md:inline">00 &nbsp; </span>{" "}
           Home
         </NavLink>
         <NavLink
           to="/destination"
           
           activeClassname="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
+          className="text-white/75 transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
-          <span className="font-semibold sm:hidden md:inline">01 &nbsp;</span>{" "}
+          <span className="text-white font-semibold sm:hidden md:inline">01 &nbsp;</span>{" "}
           Destination
         </NavLink>
         <NavLink
           to="/crew"
           
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
+          className="text-white/75 transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
-          <span className="font-semibold sm:hidden md:inline">02 &nbsp;</span>{" "}
+          <span className="text-white font-semibold sm:hidden md:inline">02 &nbsp;</span>{" "}
           Crew
         </NavLink>
         <NavLink
           to="/technology"
           
           activeClassName="active"
-          className="transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
+          className="text-white/75 transition-all hover:underline sm:hover:underline-offset-[34px] hover:decoration-4 hover:decoration-white/5 "
         >
-          <span className="font-semibold sm:hidden md:inline">03 &nbsp;</span>{" "}
+          <span className="text-white font-semibold sm:hidden md:inline">03 &nbsp;</span>{" "}
           Technology
         </NavLink>
       </nav>
